@@ -1,0 +1,7 @@
+section{
+    border-bottom: 1px blue dotted;
+}
+
+table, th, tr, td{
+    border: 1px red dotted;
+}
