@@ -18,5 +18,5 @@ CREATE TABLE `noticias` (
   PRIMARY KEY (`fecha`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
-INSERT INTO `usuarios`(`id_usuario`, `clave`, `nombre`, `ultimo_acceso`, `prioridad`) VALUES ('admin','admin','Administrador',CURRENT_TIMESTAMP,0);
-INSERT INTO `noticias`(`id_usuario`, `noticia`, `fecha`) VALUES ('admin','primera noticia',CURRENT_TIMESTAMP);
+INSERT INTO table `usuarios`(`id_usuario`, `clave`, `nombre`, `ultimo_acceso`, `prioridad`) VALUES ('admin','admin','Administrador',CURRENT_TIMESTAMP,0);
+INSERT INTO table `noticias`(`id_usuario`, `noticia`, `fecha`) VALUES ('admin','primera noticia',CURRENT_TIMESTAMP);
