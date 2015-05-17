@@ -24,7 +24,7 @@
                 <section>
                     <p>Agregar noticia</p>
                     <form>
-                        <textarea cols="50" rows="4"></textarea>
+                        <textarea cols="50" rows="4"></textarea><br/>
                         <button type="submit" >Agregar</button>
                     </form>
                 </section>
